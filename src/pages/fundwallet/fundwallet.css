@@ -1,0 +1,82 @@
+.fund--wallet-body {
+    margin: 50px auto 136px auto;
+    width: 763px;
+    /*height: 100%;*/
+}
+
+.previous-page {
+    background-color: inherit;
+    display: flex;
+    gap: .7rem;
+    align-content: center;
+    padding-bottom: 42.5px;
+}
+
+.goBack {
+    color: #012A4A;
+    width: 200px;
+    display: block;
+}
+
+.fund--wallet-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 763px;
+    height: 54px;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    background: rgba(0, 0, 0, 0.08);
+}
+
+.fund--wallet-form-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    width: 761px;
+    height: 250px;
+    background: #FFFFFF;
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+.fund--wallet-input {
+    width: 697px;
+    height: 48px;
+    margin-left: 32px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    margin-top: 8px;
+}
+
+.fund--wallet-input::placeholder{
+    padding-left: 16px;
+}
+
+.fund--wallet-form--btn {
+    margin-left: 32px;
+    background: rgba(0, 0, 0, 0.04);
+}
+
+.fund--wallet-btn-container {
+    margin-left: 2rem;
+    margin-top: 2.8rem;
+    margin-bottom: 2rem;
+}
+
+.fund--wallet-btn {
+    width: 697px;
+    height: 48px;
+    background: linear-gradient(105.38deg, #4361EE 19.05%, #3A0CA3 82.03%, #3A0CA3 82.03%);
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.fund--wallet-btn:hover {
+    width: 700px;
+}

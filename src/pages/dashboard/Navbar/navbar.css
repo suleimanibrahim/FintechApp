@@ -1,0 +1,24 @@
+.notification-profile_container {
+    display: flex;
+    gap: 2.5rem;
+    box-sizing: border-box;
+}
+
+.name{
+    padding-left: 0.5rem;
+    font-size: 15px;
+    align-items: center;
+
+}
+
+@media only screen and (max-width: 566px) {
+    .notification-profile_container {
+        margin-right: -3.5rem;
+        gap: 1rem;
+    }
+
+    h5 {
+        display: none;
+    }
+
+}

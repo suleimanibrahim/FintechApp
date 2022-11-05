@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+.login-header-name-msg {
+    text-align: left;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.login-header-msg {
+    margin-bottom: 2rem;
+}
+
+.login-header-name {
+    margin-bottom: 4rem;
+    color: #072A4B;
+}
+
+.login-left-side {
+    margin-top: 3rem;
+}
+
+.login-right-side-img {
+    width: 100%;
+}
+
+
+.login-right-side-img {
+    object-fit: contain;
+    background-image: url("../../../public/signup-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.reset-login-right-side-img{
+    object-fit: contain;
+    background-image: url("../../../public/signup-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.login-container-fluid {
+    padding: 0;
+}
+
+.login-form-item {
+    text-align: left;
+    font-weight: 500;
+}
+
+.login-form-control{
+    border: 1px solid rgb(121, 118, 118);
+    border-radius: 8px;
+    height: 3rem;
+    font-family: FontAwesome;
+}
+
+.login-form-container {
+    padding-left: 30%;
+    width: 95%;
+}
+
+
+
+.login-btn{
+    background-image: linear-gradient(to right, #4361ee, #0520a4);
+    width: 100%;
+    color: white;
+    padding: .8rem;
+    border-radius: 8px;
+    font-weight: bold;
+
+}
+
+.login-button {
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+}
+.login-span {
+    font-weight: bold;
+}
+
+.login{
+    margin-bottom: 7rem;
+}
+
+.login-left {
+    margin-right: 2rem;
+    text-align: left;
+}
+
+.login-form-container {
+    margin-top: 10rem;
+}

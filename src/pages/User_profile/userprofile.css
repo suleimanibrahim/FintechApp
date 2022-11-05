@@ -1,0 +1,100 @@
+.user--profile_body {
+    margin: 50px auto 136px auto;
+    width: 763px;
+    height: 100%;
+}
+
+.previous-page {
+    background-color: inherit;
+    display: flex;
+    gap: .7rem;
+    align-content: center;
+    padding-bottom: 42.5px;
+}
+
+.fund--wallet {
+    margin-left: 60%;
+    background-image: linear-gradient(to right, #4361ee, #0520a4);
+    border-radius: 5px;
+    padding: .2rem;
+    border: none;
+    font-weight: bold;
+    width: 400px;
+    color: #FFFFFF;
+}
+
+.fund--wallet:hover{
+    width: 430px;
+}
+
+.fund--wallet-text:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.fund--wallet-text {
+    padding: 2px;
+    color: #FFFFFF;
+}
+
+.goBack {
+    color: #012A4A;
+    width: 200px;
+    display: block;
+}
+
+.user--profile_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 763px;
+    height: 54px;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    background: rgba(0, 0, 0, 0.08);
+}
+
+.form--body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    width: 761px;
+    height: 639px;
+    background: #FFFFFF;
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+.form--header {
+    width: 114px;
+    height: 19px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #012A4A;
+    margin-left: 32px;
+}
+
+
+
+.form--input {
+    width: 697px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    margin-top: 8px;
+}
+
+.form--input::placeholder{
+    padding-left: 16px;
+}
+
+.form--btn {
+    margin-left: 32px;
+    background: rgba(0, 0, 0, 0.04);
+}

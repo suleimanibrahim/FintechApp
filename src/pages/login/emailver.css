@@ -1,0 +1,117 @@
+
+.verification-cards{
+    background-color: hsl(0, 0%, 100%);
+    width: 53.75rem;
+    margin: 10rem auto;
+    padding: 3rem;
+    height: 30.75rem;
+
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.forgot-password{
+    margin-left: 2rem;
+}
+
+.sentEmail-icon {
+    color: #012A4A;
+    width: 5.6rem;
+    height: 4.5rem;
+    margin-top: 6.2rem;
+    margin-bottom: 1rem;
+}
+
+.verification-text {
+    color: #012A4A;
+    width: 392px;
+    line-height: 19px;
+    text-align: center;
+    color: #C4C4C4;
+    margin-top: 1rem;
+    font-size: 16px;
+}
+
+.verify-text {
+    color: #21334F;
+}
+
+.verification-header{
+    font-family: Inter, sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 2.7rem;
+    color: #012A4A;
+}
+
+.verify-btn {
+    background-image: linear-gradient(104.22deg, #4361EE 38.86%, #3A0CA3 82.71%);
+    border: none;
+    padding: 1.25rem 2rem;
+    width: 12.8rem;
+    color: #ffffff;
+    margin-top: 24px;
+    margin-bottom: 8rem;
+}
+
+.reset-verify-btn{
+    background-image: linear-gradient(104.22deg, #4361EE 38.86%, #3A0CA3 82.71%);
+    border: none;
+    padding: 1.25rem 2rem;
+    width: 12.8rem;
+    color: #ffffff;
+    margin-top: 24px;
+    margin-bottom: 8rem;
+    margin-left: 24%;
+}
+
+.reset-paragraph-txt {
+    text-align: center;
+}
+
+.verify-btn:focus {
+    border: none;
+    outline: none;
+}
+
+.reset-password-button{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.reset-password-btn{
+    background-image: linear-gradient(to right, #4361ee, #0520a4);
+    width: 392px;
+    color: white;
+    padding: .8rem;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.verify-email-input {
+    border: 1px solid rgb(121, 118, 118);
+    border-radius: 8px;
+    height: 3rem;
+    font-family: FontAwesome;
+    width: 392px;
+}
+
+.verify-email-form-item {
+    font-weight: 500;
+}
+
+.reset-login {
+    width: 136px;
+    height: 42px;
+    background: rgba(0, 0, 0, 0.06);
+    border: none;
+    margin-left: 30%;
+}
+
+

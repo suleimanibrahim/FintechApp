@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@200;400;600&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+.walletcase{
+    display:flex;
+    flex-direction:column;
+    gap:2rem;
+    width:55vw;
+    margin:3rem auto;
+}
+
+.boxcontain{
+    background-color: #FFFFFF;
+    position: relative;
+
+
+}
+
+.contains{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 1.8rem;
+    margin-left: 5rem;
+    height: auto;
+
+}
+.walleticon{
+    background-color: rgba(67, 97, 238, 0.05);
+    width: 4.2rem;
+    height: 4.3rem;
+    border-radius: .5rem;
+    position: relative;
+}
+.io{
+    color: #012A4A;
+    position:absolute;
+    left:25%;
+    width:2rem;
+    right:8%;
+    top:8%;
+    bottom:22%;
+    height:3.7rem;
+}
+.digits p{
+    font-weight: 500;
+    font-size: 16px;
+    color: #012A4A;
+    font-family: 'Inter';
+    line-height: 19px;
+}
+.digits .balance{
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #012A4A;
+    font-family: 'Inter';
+    line-height: 39px;
+}
+.digits .wema{
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.copyBtn {
+    border: none;
+    background-color: inherit;
+    width: .8rem;
+    height: 1.2rem;
+    margin-right: .9rem;
+}
+
+.copyBtn:focus {
+    border: none;
+    outline: none;
+}
+
+.showBal {
+    position: absolute;
+    right: 10%;
+    top: 33%;
+}
+
+.show, .hide {
+    border: none;
+    background-color: inherit;
+
+}
+
+.showIcon, .hideIcon {
+    width: 3rem;
+    height: 1.8rem;
+}
+.show:focus, .hide:focus {
+    border: none;
+    outline: none;
+}
+.nextdiv{
+    background-color:#E5E5E5;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    height: 6.2rem;
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+
+}
+.trans, .prof{
+    background-color: rgba(67, 97, 238, 0.3);
+    height: 3.2rem;
+    width: 12.8rem;
+    /* margin-left: -9rem; */
+    display:flex;
+    justify-content: center;
+    padding-top: .8rem;
+    padding-bottom: 2rem;
+}
+.trans a, .prof a{
+    color: #012A4A;
+    font-family: 'Inter';
+    text-align: center;
+}
+
+.trans a:hover, .prof a:hover {
+    text-decoration: none;
+}
+
+.prof{
+    background-color: inherit;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+
+}
