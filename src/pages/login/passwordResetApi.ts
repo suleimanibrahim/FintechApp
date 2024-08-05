@@ -6,7 +6,7 @@ const apiUrl = rootUrl + '/api/v1/forgot-Password'
 
 
 
-export const passwordResetApi = (email) =>{
+export const passwordResetApi = (email:any) =>{
 
     return new Promise(async(resolve, reject) => {
         try{
@@ -15,7 +15,7 @@ export const passwordResetApi = (email) =>{
             console.log(data)
 
             resolve(data);
-        }catch(error){
+        }catch(error:any){
             reject({status: "error", message: error.message});
         }
     });

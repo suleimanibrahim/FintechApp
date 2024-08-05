@@ -1,33 +1,27 @@
 import { createSlice } from "@reduxjs/toolkit";
-
-const initemailTokenState = {
-    isLoading: "false",
-    status: "",
-    message: ""
-}
 const passwordResetToken = createSlice({
 
     name: "passwordResetToken",
-    initialState,
+    initialState:"",
     reducers: {
-        tokenReqPending: (state) => {
+        tokenReqPending: (state:any) => {
             state.isLoading = "true"
         },
-        tokenReqSuccess: (state, {payload}) => {
+        tokenReqSuccess: (state:any, {payload}:any) => {
             state.isLoading = false;
             state.state = "success";
             state.message =  payload;
         },
-        tokenReqFail: (state, {payload}) => {
+        tokenReqFail: (state:any, {payload}:any) => {
             state.isLoading = false;
             state.state = "error";
             state.message =  payload;
         },
     },
 });
-const {reducer, action} = passwordResetToken
+const {reducer, action}:any = passwordResetToken
 
-export const {tokenReqPending, tokenReqSuccess, tokenReqFail} = actions;
+export const {tokenReqPending, tokenReqSuccess, tokenReqFail} = action;
 
 export default reducer; 
 

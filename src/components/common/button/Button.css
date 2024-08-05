@@ -1,0 +1,9 @@
+.btn{
+    background-image: linear-gradient(to right, #4361ee, #0520a4);
+    width: 100%;
+    color: white;
+    padding: .8rem;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}

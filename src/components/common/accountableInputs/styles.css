@@ -1,0 +1,76 @@
+.p-password-input,
+.p-input-icon-right > .p-inputtext {
+  background-color: transparent;
+}
+
+.dialCodeStyle .p-dropdown-label.p-inputtext {
+  font-size: 13px;
+  position: relative;
+  left: 2.4rem;
+  top: 0.8rem;
+}
+.phoneFieldWrapper *,
+.phoneFieldWrapper *:focus,
+.phoneFieldWrapper *:hover,
+.phoneFieldWrapper *:focus-within {
+  border: none !important;
+  outline: none !important;
+  background: transparent !important;
+}
+
+.phoneFieldWrapper input[inputmode="tel"] {
+  padding-left: 0.5rem;
+}
+
+.p-inputwrapper-focus {
+  border-color: var(--penaid-green-g-200, #71cc8c) !important;
+}
+
+.p-dropdown[data-error="true"] .p-dropdown-label.p-placeholder {
+  color: var(--penaid-red-r-300, #eb5757);
+}
+.p-dropdown .p-dropdown-trigger {
+  width: auto;
+}
+
+#dialCode.p-dropdown .p-dropdown-trigger {
+  width: 0px;
+}
+
+.p-dropdown .p-dropdown-label.p-placeholder {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--penaid-grey-g-100, #90908f);
+}
+
+.p-dropdown .p-dropdown-label {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+/* .p-dropdown:not(.p-disabled).p-focus,
+.p-dropdown:not(.p-disabled):hover {
+  border-color: initial !important;
+} */
+
+.money .p-inputtext {
+  color: var(--penaid-grey-g-800, #3c3b39);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.money .p-inputtext[data-error="true"]::placeholder {
+  color: var(--penaid-red-r-300, #eb5757);
+  opacity: 0.7;
+}
+
+.money input:-webkit-autofill,
+.money input:-webkit-autofill:hover,
+.money input:-webkit-autofill:focus {
+  border-color: transparent;
+}
