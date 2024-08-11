@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const url = process.env.REACT_APP_BACKEND_URI;
 
-export const apiPost = (path, data, { headers, ...conf }, auth = true) => {
+export const apiPost = (path:any, data:any, { headers, ...conf }:any, auth = true) => {
     const Authorization = auth && `Bearer ${localStorage.getItem("token")}`;
 
     const config = {

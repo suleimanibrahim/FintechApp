@@ -18,14 +18,14 @@ const EmailVerification = () => {
 
   const navigate = useNavigate();
 
-  const handleOnResetSubmit = async (e) => {
+  const handleOnResetSubmit = async (e: any) => {
     e.preventDefault();
     try {
       const body = {
         email: email,
       };
 
-      const headers = {
+      const headers: any = {
         "Content-Type": "application/json",
       };
 
@@ -46,7 +46,7 @@ const EmailVerification = () => {
     }
   };
 
-  const handleOnchange = (e) => {
+  const handleOnchange = (e: any) => {
     const value = e.target.value;
 
     setEmail(value);
@@ -93,7 +93,7 @@ const EmailVerification = () => {
   );
 };
 
-function FormItem(props) {
+function FormItem(props: any) {
   return (
     <div className="form-group form-item">
       <label className="verify-email-form-item" htmlFor={props.name}>

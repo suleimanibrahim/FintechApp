@@ -3,7 +3,7 @@ import { cancelTokenSources, fetchAuthWrapper, fetchBaseWrapper } from "../../pa
 
 export const authService = {
 
-  login: async (credentials) => {
+  login: async (credentials:any) => {
     try {
       const response = await fetchAuthWrapper.post("/login", credentials);
       sessionStorage.setItem("token", response?.data?.access);
@@ -13,7 +13,7 @@ export const authService = {
     }
   },
 
-  staffRegister: async (credentials) => {
+  staffRegister: async (credentials:any) => {
     try {
       const response = await fetchBaseWrapper.post("/register-invited-user/", credentials);
       return response.data;
@@ -22,7 +22,7 @@ export const authService = {
     }
   },
 
-  forgotPassword: async (payload) => {
+  forgotPassword: async (payload:any) => {
     try {
       const response = await fetchAuthWrapper.post("/forgotpassword/", payload);
       return response;
@@ -38,7 +38,7 @@ export const authService = {
     }
   },
 
-  updateUserProfile:async (userId, monoId) => {
+  updateUserProfile:async (userId:string, monoId:string) => {
     try {
       const response = await fetchAuthWrapper.put(`/update-profile/${userId}/`, monoId);
       return response;
@@ -47,7 +47,7 @@ export const authService = {
   },
 
 
-  resendPassword: async (emailId) => {
+  resendPassword: async (emailId:string) => {
     try {
       const response = await fetchAuthWrapper.post("sendverificationlink/", {
         emailId: emailId,
@@ -57,7 +57,7 @@ export const authService = {
     }
   },
 
-  resetPassword: async (request) => {
+  resetPassword: async (request:any) => {
     try {
       const response = await fetchAuthWrapper.put("setnewpassword/", request);
       return response;
@@ -77,7 +77,7 @@ export const authService = {
     }
   },
 
-  signup: async (payload) => {
+  signup: async (payload:any) => {
     try {
       const response = await fetchAuthWrapper.post("/signup/", payload);
       return response?.data;
