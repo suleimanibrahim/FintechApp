@@ -60,9 +60,20 @@
     font-family: FontAwesome;
 }
 
-.login-form-container {
-    padding-left: 30%;
-    width: 95%;
+
+
+@media (max-width: 768px) {
+    .login-form-container {
+        width: 100%;
+        margin: 0 1rem;
+    }
+}
+
+@media (width > 768px) {
+    .login-form-container {
+        padding-left: 30%;
+        width: 95%;
+    }
 }
 
 

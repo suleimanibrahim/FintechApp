@@ -52,11 +52,19 @@
     font-family: FontAwesome;
 }
 
-.signup-form-container {
-    padding-left: 30%;
-    width: 95%;
+@media (width > 768px) {
+    .signup-form-container {
+        padding-left: 30%;
+        width: 95%;
+    }
 }
 
+@media (max-width: 768px) {
+    .signup-form-container {
+        width: 100%;
+        margin: 0 1rem;
+    }
+}
 
 
 .signup-btn{
